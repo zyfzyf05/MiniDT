@@ -1,0 +1,10 @@
+name = "minidt"
+version = "0.1.0"
+defaultTargets = ["minidt"]
+
+[[lean_lib]]
+name = "MiniDT"
+
+[[lean_exe]]
+name = "minidt"
+root = "Main"
