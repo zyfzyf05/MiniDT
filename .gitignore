@@ -1,0 +1,15 @@
+# Lean / lake
+.lake/
+*.olean
+*.ilean
+.lake-packages/
+lake-manifest.json
+
+# 编辑器
+.vscode/
+*.swp
+
+# Windows / OS
+Thumbs.db
+Desktop.ini
+.DS_Store
