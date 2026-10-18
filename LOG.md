@@ -17,3 +17,11 @@
 - VS Code 安装 leanprover.lean4 扩展（v0.0.240）
 - 踩坑记录：Lean 中 doc 注释（/-- -/）后必须紧跟定义，悬空会报 "unexpected end of input"；用 `netstat` 而非猜测确认代理端口
 - 待办：M0 剩余部分——通读 TPIL 前 5 章（本人执行，先纸后机）
+
+## 2026-10-18（晚）· 练习区与项目基建
+
+- 新增 `TPIL/`：第 1 周练习骨架（#check 实验、double、not_、length，全部可编译、无 sorry），节奏表与提交约定写在 `TPIL/README.md`
+- 新增 `DECISIONS.md`（决策日志，目前 5 条）与 `QUESTIONS.md`（活题库，目前 3 条种子）
+- `.vscode/`：Lean 4 扩展推荐 + 工作区设置
+- `docs/social-preview.png`：仓库社交预览图（GitHub 需在仓库 Settings 中手动上传，API 无法设置）
+- 学到：CI（lean_action_ci）对 sorry 敏感，练习骨架刻意用可编译占位实现代替
