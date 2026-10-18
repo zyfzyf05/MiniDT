@@ -3,10 +3,9 @@
 *.olean
 *.ilean
 .lake-packages/
-lake-manifest.json
+# 注意：lake-manifest.json 必须提交！lean-action CI 靠它复现构建
 
 # 编辑器
-.vscode/
 *.swp
 
 # Windows / OS
